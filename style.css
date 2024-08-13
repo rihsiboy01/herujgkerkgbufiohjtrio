@@ -1,0 +1,60 @@
+header{
+    height: 120px;
+    border: 2px solid;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+nav{
+    justify-content: space-around;
+    display: flex;
+    width: 500px;
+    color: gray;
+}
+nav:active{
+          color: black;
+}
+.bir div{
+    height: 440px;
+    width: 292px;
+}
+.bir{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bir div img{
+    height: 400px;
+    width: 300px;
+}
+.mol{
+    height: 179px;
+    width: 952px;
+    text-align: center;
+    margin: auto;
+}
+.bir button{
+    border-radius: 50px;
+    border: 2px solid blue;
+}
+.bir button:hover{
+    background-color: blue;
+}
+.box {
+    width: 1180px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    border: 2px solid red;
+}
+.box div{
+    height: 380px;
+    width: 380px;
+    background-color: azure;
+    border: 2px solid;
+}
+.box div:hover{
+    border-radius: 50px;
+    background-color: blue;
+}
